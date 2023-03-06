@@ -21,7 +21,7 @@ const studentSchema = new mongoose.Schema({
   lastName: { type: String, required: true },
   email: { type: String, required: true },
   phone: { type: String, required: true },
-  dateOfBirth: { type: Date, required: true },
+  dateOfBirth: { type: String, required: true },
   gender: {
     type: String,
     enum: ['male', 'female', 'other'],
